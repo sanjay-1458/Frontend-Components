@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #0a122b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.tiltCard {
+  width: 200px;
+  height: 280px;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin:0 20px;
+  border-radius: 10px;
+    border:1px solid rgba(255, 255, 255,0.18)
+}

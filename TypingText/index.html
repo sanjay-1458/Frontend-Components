@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <span class="text first-text">Hello, </span>
+        <span class="text second-text">World!</span>
+    </div>
+    <script>
+        const text=document.querySelector(".second-text");
+        const textLoad=()=>{
+            setTimeout(()=>{
+                text.textContent="Cat";
+            },0)
+            setTimeout(()=>{
+                text.textContent="World!";
+            },4000)
+        }
+        textLoad();
+    </script>
+</body>
+</html>
