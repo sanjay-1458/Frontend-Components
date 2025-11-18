@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100vh;
+    width: 100vw;
+}
+.container{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body img{
+    height:40px;
+}
+
+.card{
+    width: 18rem;
+    box-shadow: 1px 1px 6px rgb(171, 183, 221);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    
+}
+.blue{
+    width: 100%;
+    background-color: rgb(105, 138, 246);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height:7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.blue img{
+    height:6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.img{
+    border-radius: 50%;
+    border: 2px solid rgb(105, 138, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:2rem;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:5rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: medium;
+    color:rgb(60, 69, 69);
+}
+.text p{
+    margin-top: 3px;
+    color:rgb(87, 95, 95);
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    
+    
+}
+button {
+    width:6rem;
+    height:30px;
+    background-color: rgb(105, 138, 246);
+    border: none;
+    color:white;
+    border-radius: 19px;
+    font-weight:500;
+    font-size: 1rem;
+    margin:0 4px 0 4px;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color:rgb(98, 111, 114);
+}
+.data .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items img{
+    color:rgb(31, 46, 64);
+    height: 26px;
+    padding: 4px;
+}
+.icons img{
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(68, 84, 204);
+    scale: 1.01;
+}
